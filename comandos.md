@@ -15,4 +15,4 @@ siempre alerta estas.
 - rm -rf (**r**ecursivo **f**orce)
 - cat: concatenar archivos
 - cat fichero > fichero2 lo redirecciona del A al B
-- tambien hay dobles redirecciones, las cuales desconozco como cojones se usan<<
+- tambien hay dobles redirecciones, <<
