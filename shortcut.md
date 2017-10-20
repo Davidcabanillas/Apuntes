@@ -1,10 +1,10 @@
-#ATAJOS EN GNU/LINUX
+# ATAJOS EN GNU/LINUX
 
 En notación de Backus-Naur
 
 ![Icono GDM] (./ignu.png Viva Gnu)
 
-##GNOME (3 Shell) 
+## GNOME (3 Shell) 
 
 - Meta (tecla de windows): abre panel lateral
 - Control Q: quitar programa
@@ -15,7 +15,7 @@ En notación de Backus-Naur
 - meta espacio: Cambio de idioma
 - Meta : maximizar ventana
 
-##TEXTO
+## TEXTO
 
 - Control +: Ampliar fuente
 - Control -: Reducir fuente
@@ -26,7 +26,7 @@ En notación de Backus-Naur
 - Control Shift ←↑→↓: Subraya palabras enteras
 - Control ALT O (vocal): pasar a modo pagina web 
 
-##Terminal
+## Terminal
 
 - Control alt T: Sacar terminal
 - Control mayus t: abrir otra pestaña
@@ -56,7 +56,7 @@ En notación de Backus-Naur
 - cat fichero > fichero2 lo redirecciona del A al B
 - tambien hay dobles redirecciones, <<
 
-git:
+## git:
 
 - clone
 - commit
