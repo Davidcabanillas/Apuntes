@@ -38,7 +38,7 @@ $?: variable que contiene el ultimo comando ejecutado
 - !*: Los ultimos parámetros
 
 ### Operadores lógicos
-&&: AND
-||: OR
-!: NOT
+- &&: AND
+- ||: OR
+- !: NOT
 
