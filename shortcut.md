@@ -48,9 +48,9 @@ En notación de Backus-Naur
 
 - ls: list files. muestra el directorio
 - cd: change directory
-- Mkdir: make dir
-- RMdir: remove directory (solo si esta vacio)
-- RM: remove. Quitar un archivo
+- mkdir: make dir
+- rmdir: remove directory (solo si esta vacio)
+- rm: remove. Quitar un archivo
 - rm -rf (**r**ecursivo **f**orce)
 - cat: concatenar archivos
 - cat fichero > fichero2 lo redirecciona del A al B
@@ -83,3 +83,27 @@ f es fila, F1 fila uno por ejemplo
 
 ## Comandos que filtran
 
+Wget para descargar archivos 
+- Split (n) → 
+- man 1 → herramientas terminal 
+- man 2→ Nucleo sistema operativo
+- man 3→ Lenguaje de programacion
+
+tambien puede usarse info
+
+## Otros
+- wget paginaweb: descargar de internet
+- tr: Transalate, Traduce/cambia una serie de letras por otras.  Ejemplo cat shk.txt | tr "Ai" "a!"   Esto cambiaria la A=a y i=!
+tr -s "A" "a": squeeze, aprieta, cambia todas las A por una a
+
+tr "A-Z" "a-z": cambia todas las mayusculas a minusculas, el guion indica rango
+	"\t": tabulaciones
+	"\n": new line
+	"cd": conjunto complementario
+
+- uniq: deja filas unicas. -c: cuenta
+- sort: ordena. -n: Numerico
+
+- telnet 
+- ssh: igual que telnet pero seguro
+- nc -l 2222: redirige todo lo que entre 
