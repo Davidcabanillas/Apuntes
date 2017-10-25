@@ -16,3 +16,19 @@ siempre alerta estas.
 - cat: concatenar archivos
 - cat fichero > fichero2 lo redirecciona del A al B
 - tambien hay dobles redirecciones, <<
+
+git:
+
+- clone
+- commit
+- status
+- add (vigilar nuevos ficheros)
+  git a -u (remove deleted files)
+- pull
+- push
+
+seq: secuencia de numeros
+
+paste: unir en vertical    Ejemplo: archivo1.txt archivo2.txt
+
+join:

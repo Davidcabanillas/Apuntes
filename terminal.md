@@ -14,6 +14,10 @@ lt= less than
 &lt;&lt;: here document 
 
 &lt;&lt;&lt;: here string
+2>: redirigir stderr
+|: Pipe, tuberia (usa en secreto un fichero anonimo)
+
+Redireccion de copia.
 
 ## Metacaracteres
 - $: dime el valor de una variable 
@@ -25,8 +29,18 @@ lt= less than
 - "\\": Secuencia de escape ==> Kriptonita de los metacaracteres
 - -- (a veces el guion representa al fichero que corresponde con la terminal) 
 - "comillas": Quitan el poder a casi todos los meta, menos a $
-$#: convierte en comentario lo que vaya tras el 
-$?: variable que contiene el ultimo comando ejecutado
+- ' ': Quita el poder a todos los meta
+- *: cualquier parametro
+	- *b*: todo lo que contenga una b
+	\*: cualquier secuencia de caracteres
+- ?: cualquier caracter
+- []: conjunto de seleccion
+- {}: combinacion de secuencia
+- $#: convierte en comentario lo que vaya tras el 
+- $?: variable que contiene el ultimo comando ejecutado
+- $: dikme el valor de una variable
+- \: ejecutar un comando y sustituir por el resultado
+- &: Ejecutar una cosa en segundo plano
 
 ## Variable
 #: Cantidad de parametros

@@ -81,9 +81,15 @@ tail -f (deja el fichero abierto)
 f es fila, F1 fila uno por ejemplo
 - split: divide horizontal
 
+## Comandos que trabajan con texto
+- grep: filtra
+- ed: editor sin venta
+- sed: lo mismo
+- vi: (mejorado)
+
+- copmandos en vi, valen los de la terminal, se activa con !
 ## Comandos que filtran
 
-Wget para descargar archivos 
 - Split (n) → 
 - man 1 → herramientas terminal 
 - man 2→ Nucleo sistema operativo
@@ -93,10 +99,29 @@ tambien puede usarse info
 
 ## Otros
 - wget paginaweb: descargar de internet
-- tr: Transalate, Traduce/cambia una serie de letras por otras.  Ejemplo cat shk.txt | tr "Ai" "a!"   Esto cambiaria la A=a y i=!
-tr -s "A" "a": squeeze, aprieta, cambia todas las A por una a
+- bc: calculadora basica, se sale con control D
+	- "obase": base de salida
+	- "ibase": base de entrada
+	- base=16 o 10 o 8, cambia la base
 
-tr "A-Z" "a-z": cambia todas las mayusculas a minusculas, el guion indica rango
+- cal: calendario
+- xargs: ejecuta con argumentos
+- rsync: hace copias de seguridad (varios equipos)
+- mysqldump: volcado de la base de datos
+- date: muestra la fecha (backups rotativos)
+- history: muestra el historial
+- fg <n>: trae un proceso a primer plano
+- jobs: Lista todos los procesos detenidos
+- ps aux: vemos los procesos
+- kill <pid>: Matamos el proceso
+- kill -9 <pid>: matar por la fuerza
+-
+-
+-
+- touch: 
+- tr: Transalate, Traduce/cambia una serie de letras por otras.  Ejemplo cat shk.txt | tr "Ai" "a!"   Esto cambiaria la A=a y i=!
+- tr -s "A" "a": squeeze, aprieta, cambia todas las A por una a
+- tr "A-Z" "a-z": cambia todas las mayusculas a minusculas, el guion indica rango
 	"\t": tabulaciones
 	"\n": new line
 	"cd": conjunto complementario
@@ -106,4 +131,23 @@ tr "A-Z" "a-z": cambia todas las mayusculas a minusculas, el guion indica rango
 
 - telnet 
 - ssh: igual que telnet pero seguro
-- nc -l 2222: redirige todo lo que entre 
+- nc -l 2222: redirige todo lo que entre
+
+## Para buscar
+- grep: filtra
+	- i: ignora mayus/minus
+	- l: linea
+	- n: 
+	- b: bit en el que esta
+	- c: cuenta las veces que aparece la palabra
+- find: Busca ficheros
+	- Ejemplo: find . -name "algo": busca en la carpeta ficheros que tengan "algo" en el nombre
+- xargs: pasa lo hecho por el comando anterior a otro, ejecuta con argumentos
+	- Ejemplo seq 1 9 | xargs echo: ejecuta la secuencia de 1-9 y la carga en el echo
+- wich: Donde esta instalado
+
+- > tubo
+- 2> tubo2
+
+chmod: permisos 
+
